@@ -1,6 +1,6 @@
 package AbstarctFactoryPattern;
 
-public class MaleBlackMan extends BlackMan
+class MaleBlackMan extends BlackMan
 {
 
     @Override

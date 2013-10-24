@@ -1,6 +1,6 @@
 package AbstarctFactoryPattern;
 
-public class FemaleYellowWMan extends YellowMan
+class FemaleYellowWMan extends YellowMan
 {
 
     @Override

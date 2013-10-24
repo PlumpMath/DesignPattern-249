@@ -1,6 +1,6 @@
 package FactoryPattern;
 
-public interface Human
+interface Human
 {
     public void getColor();
 

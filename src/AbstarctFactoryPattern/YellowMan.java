@@ -1,6 +1,6 @@
 package AbstarctFactoryPattern;
 
-public abstract class YellowMan implements Human
+abstract class YellowMan implements Human
 {
 
     @Override

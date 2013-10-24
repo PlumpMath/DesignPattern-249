@@ -1,6 +1,6 @@
 package AbstarctFactoryPattern;
 
-public abstract class WhiteMan implements Human
+abstract class WhiteMan implements Human
 {
 
     @Override
@@ -14,6 +14,5 @@ public abstract class WhiteMan implements Human
     {
         System.out.println("im WhiteMan");
     }
-
 
 }

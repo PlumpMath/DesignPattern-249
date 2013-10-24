@@ -1,6 +1,6 @@
 package FactoryPattern;
 
-public class WhiteMan implements Human
+class WhiteMan implements Human
 {
 
     @Override

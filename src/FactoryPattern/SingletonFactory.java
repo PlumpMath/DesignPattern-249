@@ -4,7 +4,7 @@ import java.lang.reflect.Constructor;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SingletonFactory
+class SingletonFactory
 {
     private static SingletonFactory singletonFactory;
 
@@ -38,29 +38,27 @@ public class SingletonFactory
 
     public static synchronized Human createProduct(String type)
     {
-            Human human=null;
-            if(map.containsKey(type))
+        Human human = null;
+        if (map.containsKey(type))
+        {
+            human = map.get(type);
+        } else
+        {
+            if (type.endsWith("WhiteMan"))
             {
-                human=map.get(type);
-            }
-            else
+                human = new HumanFactory().createHuman(WhiteMan.class);
+            } else
             {
-                if(type.endsWith("WhiteMan"))
-                {
-                    human=new HumanFactory().createHuman(WhiteMan.class);
-                }
-                else
-                {
-                    human=new HumanFactory().createHuman(YellowMan.class);
-                }
-                
-                if(null!=human)
-                {
-                    map.put(type, human);
-                }
+                human = new HumanFactory().createHuman(YellowMan.class);
             }
-            
-            return human;
-            
+
+            if (null != human)
+            {
+                map.put(type, human);
+            }
+        }
+
+        return human;
+
     }
 }
