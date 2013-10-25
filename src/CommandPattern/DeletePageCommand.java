@@ -1,6 +1,6 @@
 package CommandPattern;
 
-public class DeletePageCommand extends Command
+ class DeletePageCommand extends Command
 {
 
     @Override

@@ -1,6 +1,6 @@
 package CommandPattern;
 
-public class RequirementGroup extends Group
+ class RequirementGroup extends Group
 {
     @Override
     public void find()

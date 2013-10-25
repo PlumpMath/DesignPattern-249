@@ -1,6 +1,6 @@
 package CommandPattern;
 
-public class Invoker
+ class Invoker
 {
         private Command command;
 

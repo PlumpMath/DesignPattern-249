@@ -1,6 +1,6 @@
 package CommandPattern;
 
-public abstract class Command
+ abstract class Command
 {
     RequirementGroup rg=new RequirementGroup();
     

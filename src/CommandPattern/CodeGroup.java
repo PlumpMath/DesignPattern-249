@@ -1,6 +1,6 @@
 package CommandPattern;
 
-public class CodeGroup extends Group
+ class CodeGroup extends Group
 {
 
     @Override

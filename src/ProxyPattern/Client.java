@@ -23,6 +23,5 @@ public class Client
             proxy1.login("lisi", "22");
             proxy1.killboss();
             proxy1.upgrade();
-            
         }
 }
