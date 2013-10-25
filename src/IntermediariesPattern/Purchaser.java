@@ -11,10 +11,10 @@ public class Purchaser extends AbstarctColleage
     {
         super.mediator.execute("buy", number);
     }
-    
+
     public void stopBuyIBM()
     {
         super.mediator.execute("stop");
     }
-    
+
 }

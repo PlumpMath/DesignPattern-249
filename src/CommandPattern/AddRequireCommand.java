@@ -1,6 +1,6 @@
 package CommandPattern;
 
- class AddRequireCommand extends Command
+class AddRequireCommand extends Command
 {
 
     @Override

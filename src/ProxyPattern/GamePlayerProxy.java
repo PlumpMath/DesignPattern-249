@@ -1,18 +1,18 @@
 package ProxyPattern;
 
-public class GamePlayerProxy implements IGamePlayer,IProxy
+public class GamePlayerProxy implements IGamePlayer, IProxy
 {
     private IGamePlayer gamePlayer;
-    
+
     public GamePlayerProxy(IGamePlayer gamePlayer)
     {
-        this.gamePlayer=gamePlayer;
-       }
-    
+        this.gamePlayer = gamePlayer;
+    }
+
     @Override
     public void login(String user, String password)
     {
-       this.gamePlayer.login(user, password);
+        this.gamePlayer.login(user, password);
     }
 
     @Override

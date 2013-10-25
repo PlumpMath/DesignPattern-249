@@ -4,7 +4,7 @@ public class Client
 {
     private static int MAX_COUNT = 7;
 
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
         int i = 0;
         Mail mail = new Mail(new AdvTemplate());
@@ -23,6 +23,6 @@ public class Client
 
     private static void sendMail(Mail mail)
     {
-        System.out.println(mail.hashCode()+":"+mail.getAppellation() + mail.getReceiver());
+        System.out.println(mail.hashCode() + ":" + mail.getAppellation() + mail.getReceiver());
     }
 }

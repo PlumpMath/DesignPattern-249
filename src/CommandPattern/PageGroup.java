@@ -1,6 +1,6 @@
 package CommandPattern;
 
- class PageGroup extends Group
+class PageGroup extends Group
 {
     @Override
     public void find()

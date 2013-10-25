@@ -1,14 +1,13 @@
 package CommandPattern;
 
- abstract class Command
+abstract class Command
 {
-    RequirementGroup rg=new RequirementGroup();
-    
-    PageGroup pg=new PageGroup();
-    
-    CodeGroup cd=new CodeGroup();
-    
-    
+    RequirementGroup rg = new RequirementGroup();
+
+    PageGroup        pg = new PageGroup();
+
+    CodeGroup        cd = new CodeGroup();
+
     public abstract void execute();
-    
+
 }

@@ -1,6 +1,6 @@
 package CommandPattern;
 
- class RequirementGroup extends Group
+class RequirementGroup extends Group
 {
     @Override
     public void find()
@@ -36,6 +36,6 @@ package CommandPattern;
     public void rollBack()
     {
         System.out.println("rollBack" + "Requirement");
-        
+
     }
 }

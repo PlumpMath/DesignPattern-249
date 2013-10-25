@@ -1,17 +1,16 @@
 package CommandPattern;
 
- class Invoker
+class Invoker
 {
-        private Command command;
+    private Command command;
 
+    public final void setCommand(Command command)
+    {
+        this.command = command;
+    }
 
-        public final void setCommand(Command command)
-        {
-            this.command = command;
-        }
-        
-        public void addAction()
-        {
-            this.command.execute();
-        }
+    public void addAction()
+    {
+        this.command.execute();
+    }
 }

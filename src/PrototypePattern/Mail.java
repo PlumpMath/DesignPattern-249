@@ -4,36 +4,34 @@ import java.util.ArrayList;
 
 public class Mail implements Cloneable
 {
-    private ArrayList<String> list=new ArrayList<String>();
-    private String receiver;
-    private String subject;
-    private String appellation;
-    private String context;
-    
-    private String tail;
-    
+    private ArrayList<String> list = new ArrayList<String>();
+    private String            receiver;
+    private String            subject;
+    private String            appellation;
+    private String            context;
+
+    private String            tail;
+
     public Mail(AdvTemplate tmpleate)
     {
-        this.context=tmpleate.getAdvContext();
-        this.subject=tmpleate.getAdvSubject();
-        
-        
+        this.context = tmpleate.getAdvContext();
+        this.subject = tmpleate.getAdvSubject();
+
     }
 
     @Override
-    protected Object clone() 
+    protected Object clone()
     {
-        Mail mail=null;
+        Mail mail = null;
         try
         {
-            mail=(Mail) super.clone();
-            mail.list=(ArrayList<String>) this.list.clone();
+            mail = (Mail) super.clone();
+            mail.list = (ArrayList<String>) this.list.clone();
         } catch (CloneNotSupportedException e)
         {
             e.printStackTrace();
         }
-        
-        
+
         return mail;
     }
 
@@ -86,7 +84,5 @@ public class Mail implements Cloneable
     {
         this.tail = tail;
     }
-    
-    
-    
+
 }

@@ -1,14 +1,14 @@
 package CommandPattern;
 
- class DeletePageCommand extends Command
+class DeletePageCommand extends Command
 {
 
     @Override
     public void execute()
     {
-            super.pg.find();
-            super.pg.delete();
-            super.pg.plan();
+        super.pg.find();
+        super.pg.delete();
+        super.pg.plan();
     }
-        
+
 }

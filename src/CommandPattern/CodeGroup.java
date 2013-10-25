@@ -1,6 +1,6 @@
 package CommandPattern;
 
- class CodeGroup extends Group
+class CodeGroup extends Group
 {
 
     @Override
@@ -37,7 +37,7 @@ package CommandPattern;
     public void rollBack()
     {
         System.out.println("rollBack" + "Code");
-        
+
     }
 
 }
