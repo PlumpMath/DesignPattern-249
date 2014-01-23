@@ -3,6 +3,7 @@ package FactoryPattern;
 class HumanFactory extends AbstractHumanFactory
 {
 
+    @SuppressWarnings("unchecked")
     @Override
     public <T extends Human> T createHuman(Class<T> c)
     {
