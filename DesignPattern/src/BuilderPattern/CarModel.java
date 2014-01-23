@@ -40,8 +40,6 @@ abstract class CarModel
             {
                 engineBoom();
             }
-
         }
-
     }
 }
