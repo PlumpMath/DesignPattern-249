@@ -1,16 +1,13 @@
 package StatePattern;
 
-public abstract class State
-{
+public abstract class State {
     Context context;
 
-    public final Context getContext()
-    {
+    public final Context getContext() {
         return context;
     }
 
-    public final void setContext(Context context)
-    {
+    public final void setContext(Context context) {
         this.context = context;
     }
 

@@ -1,9 +1,7 @@
 package BuilderPattern;
 
-class Client
-{
-    public static void main(String[] args)
-    {
+class Client {
+    public static void main(String[] args) {
         Director director = new Director();
 
         CarModel abenz = director.getABenzModel();

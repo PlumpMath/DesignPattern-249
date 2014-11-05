@@ -2,14 +2,11 @@ package FactoryPattern;
 
 /**
  * 工厂方法模式
- * 
+ *
  * @author V
- * 
  */
-class nvwa
-{
-    public static void main(String[] args)
-    {
+class nvwa {
+    public static void main(String[] args) {
         AbstractHumanFactory factory = new HumanFactory();
 
         Human whiteHuman = factory.createHuman(WhiteMan.class);

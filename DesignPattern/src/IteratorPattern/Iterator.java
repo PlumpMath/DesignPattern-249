@@ -1,7 +1,6 @@
 package IteratorPattern;
 
-public interface Iterator
-{
+public interface Iterator {
     public boolean heasNext();
 
     public Object next();

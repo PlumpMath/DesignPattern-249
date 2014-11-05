@@ -1,9 +1,8 @@
 package VisitorPattern;
 
-public abstract class Element
-{
+public abstract class Element {
     public abstract void adSomething();
 
-    public abstract void accpet(IVisible visible);ikahsdklahsdklahsdklhsikahsdklahsdklahsdklhs
+    public abstract void accpet(IVisible visible);
 
 }

@@ -1,7 +1,6 @@
 package AbstarctFactoryPattern;
 
-interface Human
-{
+interface Human {
     public void getColor();
 
     public void talk();

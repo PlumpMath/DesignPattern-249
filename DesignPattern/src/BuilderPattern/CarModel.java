@@ -2,12 +2,10 @@ package BuilderPattern;
 
 import java.util.ArrayList;
 
-abstract class CarModel
-{
+abstract class CarModel {
     private ArrayList<String> sequence = new ArrayList<String>();
 
-    public final void setSequence(ArrayList<String> sequence)
-    {
+    public final void setSequence(ArrayList<String> sequence) {
         this.sequence = sequence;
     }
 
@@ -19,25 +17,19 @@ abstract class CarModel
 
     public abstract void engineBoom();
 
-    public void run()
-    {
+    public void run() {
         String action = null;
         int size = sequence.size();
-        for (int i = 0; i < size; i++)
-        {
+        for (int i = 0; i < size; i++) {
 
             action = sequence.get(i);
-            if (action.equals("start"))
-            {
+            if (action.equals("start")) {
                 start();
-            } else if (action.equals("stop"))
-            {
+            } else if (action.equals("stop")) {
                 stop();
-            } else if (action.equals("alarm"))
-            {
+            } else if (action.equals("alarm")) {
                 alarm();
-            } else if (action.equals("engineBoom"))
-            {
+            } else if (action.equals("engineBoom")) {
                 engineBoom();
             }
         }

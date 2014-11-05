@@ -1,6 +1,5 @@
 package AdapterPattern;
 
-public interface Target
-{
+public interface Target {
     public void request();
 }

@@ -1,7 +1,6 @@
 package CommandPattern;
 
-abstract class Group
-{
+abstract class Group {
     public abstract void find();
 
     public abstract void add();

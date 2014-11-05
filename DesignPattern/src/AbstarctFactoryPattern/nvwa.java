@@ -2,14 +2,11 @@ package AbstarctFactoryPattern;
 
 /**
  * 抽象工厂方法模式
- * 
+ *
  * @author V
- * 
  */
-class nvwa
-{
-    public static void main(String[] args)
-    {
+class nvwa {
+    public static void main(String[] args) {
         HumanFactory manFactory = new MaleFactory();
         HumanFactory womanFactory = new FemaleFactory();
 

@@ -1,18 +1,15 @@
 package FacadePattern;
 
-public class Facade
-{
+public class Facade {
     private ClassA a = new ClassA();
 
     private ClassB b = new ClassB();
 
-    public void A()
-    {
+    public void A() {
         a.doSomething();
     }
 
-    public void B()
-    {
+    public void B() {
         b.doSomething();
     }
 }

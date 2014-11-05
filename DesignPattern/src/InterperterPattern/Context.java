@@ -1,6 +1,5 @@
 package InterperterPattern;
 
-public class Context
-{
+public class Context {
 
 }

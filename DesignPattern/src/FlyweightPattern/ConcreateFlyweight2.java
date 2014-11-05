@@ -1,17 +1,14 @@
 package FlyweightPattern;
 
-public class ConcreateFlyweight2 extends Flyweight
-{
+public class ConcreateFlyweight2 extends Flyweight {
 
-    public ConcreateFlyweight2(String extrinsic)
-    {
+    public ConcreateFlyweight2(String extrinsic) {
         super(extrinsic);
     }
 
     @Override
-    public void operate()
-    {
-System.out.println("ConcreateFlyweight2");        
+    public void operate() {
+        System.out.println("ConcreateFlyweight2");
     }
 
 }

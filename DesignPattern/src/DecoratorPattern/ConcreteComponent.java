@@ -1,11 +1,9 @@
 package DecoratorPattern;
 
-public class ConcreteComponent extends Component
-{
+public class ConcreteComponent extends Component {
 
     @Override
-    void operate()
-    {
+    void operate() {
         System.out.println("dosomething");
     }
 

@@ -1,17 +1,14 @@
 package FactoryPattern;
 
-class YellowMan implements Human
-{
+class YellowMan implements Human {
 
     @Override
-    public void getColor()
-    {
+    public void getColor() {
         System.out.println("color:Yellow");
     }
 
     @Override
-    public void talk()
-    {
+    public void talk() {
         System.out.println("im YellowMan");
     }
 

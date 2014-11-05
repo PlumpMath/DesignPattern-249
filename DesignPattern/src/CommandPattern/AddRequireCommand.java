@@ -1,11 +1,9 @@
 package CommandPattern;
 
-class AddRequireCommand extends Command
-{
+class AddRequireCommand extends Command {
 
     @Override
-    public void execute()
-    {
+    public void execute() {
         super.rg.find();
         super.rg.add();
         super.rg.plan();

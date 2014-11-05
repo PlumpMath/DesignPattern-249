@@ -1,9 +1,7 @@
 package CompositePattern;
 
-public class Client
-{
-    public static void main(String[] args)
-    {
+public class Client {
+    public static void main(String[] args) {
         Composite root = new Composite();
         root.doSomething();
 
@@ -14,15 +12,11 @@ public class Client
 
     }
 
-    public static void display(Composite root)
-    {
-        for (Component c : root.getList())
-        {
-            if (c instanceof Leaf)
-            {
+    public static void display(Composite root) {
+        for (Component c : root.getList()) {
+            if (c instanceof Leaf) {
                 c.doSomething();
-            } else
-            {
+            } else {
                 display((Composite) c);
             }
         }

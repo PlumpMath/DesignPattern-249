@@ -1,18 +1,15 @@
 package VisitorPattern;
 
-public class Visible implements IVisible
-{
+public class Visible implements IVisible {
 
     @Override
-    public void visit(ConcreateElement1 e)
-    {
+    public void visit(ConcreateElement1 e) {
         e.adSomething();
     }
 
     @Override
-    public void visit(ConcreateElement2 e)
-    {
-        e.adSomething();aaa大大大大大大
+    public void visit(ConcreateElement2 e) {
+        e.adSomething();
     }
 
 }

@@ -1,21 +1,16 @@
 package SingletonPattern;
 
-class Emperor
-{
+class Emperor {
 
     private static Emperor emperor = null;
 
-    private Emperor()
-    {
+    private Emperor() {
 
     }
 
-    public static Emperor getInstance()
-    {
-        if (null == emperor)
-        {
-            synchronized (Emperor.class)
-            {
+    public static Emperor getInstance() {
+        if (null == emperor) {
+            synchronized (Emperor.class) {
                 if (null == emperor)
                     emperor = new Emperor();
             }
@@ -24,8 +19,7 @@ class Emperor
         return emperor;
     }
 
-    public void say()
-    {
+    public void say() {
         System.out.println(emperor + ":hello");
     }
 

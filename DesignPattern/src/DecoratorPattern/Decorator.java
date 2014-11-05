@@ -1,18 +1,15 @@
 package DecoratorPattern;
 
-public abstract class Decorator extends Component
-{
+public abstract class Decorator extends Component {
 
     private Component component = null;
 
-    public Decorator(Component component)
-    {
+    public Decorator(Component component) {
         this.component = component;
     }
 
     @Override
-    void operate()
-    {
+    void operate() {
         this.component.operate();
     }
 

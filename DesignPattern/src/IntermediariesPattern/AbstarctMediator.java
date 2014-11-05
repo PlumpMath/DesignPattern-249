@@ -1,13 +1,11 @@
 package IntermediariesPattern;
 
-public abstract class AbstarctMediator
-{
+public abstract class AbstarctMediator {
     Purchaser purchase;
-    Sale      sale;
-    Stock     stock;
+    Sale sale;
+    Stock stock;
 
-    public AbstarctMediator()
-    {
+    public AbstarctMediator() {
         purchase = new Purchaser(this);
         sale = new Sale(this);
         stock = new Stock(this);

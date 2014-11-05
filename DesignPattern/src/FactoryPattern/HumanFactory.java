@@ -1,19 +1,15 @@
 package FactoryPattern;
 
-class HumanFactory extends AbstractHumanFactory
-{
+class HumanFactory extends AbstractHumanFactory {
 
     @SuppressWarnings("unchecked")
     @Override
-    public <T extends Human> T createHuman(Class<T> c)
-    {
+    public <T extends Human> T createHuman(Class<T> c) {
 
         Human human = null;
-        try
-        {
+        try {
             human = (Human) Class.forName(c.getName()).newInstance();
-        } catch (Exception e)
-        {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 

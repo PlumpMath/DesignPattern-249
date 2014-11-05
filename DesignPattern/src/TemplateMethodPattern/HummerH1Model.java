@@ -1,35 +1,29 @@
 package TemplateMethodPattern;
 
-class HummerH1Model extends HummerModel
-{
+class HummerH1Model extends HummerModel {
 
     @Override
-    public void start()
-    {
+    public void start() {
         System.out.println("H1" + "start");
     }
 
     @Override
-    public void stop()
-    {
+    public void stop() {
         System.out.println("H1" + "stop");
     }
 
     @Override
-    public void alarm()
-    {
+    public void alarm() {
         System.out.println("H1" + "alarm");
     }
 
     @Override
-    public void engineBoom()
-    {
+    public void engineBoom() {
         System.out.println("H1" + "engineBoom");
     }
 
     @Override
-    public void setAlarm()
-    {
+    public void setAlarm() {
         isAlarm = false;
     }
 

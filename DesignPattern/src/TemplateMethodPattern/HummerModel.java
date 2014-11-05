@@ -1,7 +1,6 @@
 package TemplateMethodPattern;
 
-abstract class HummerModel
-{
+abstract class HummerModel {
 
     boolean isAlarm = false;
 
@@ -15,8 +14,7 @@ abstract class HummerModel
 
     public abstract void setAlarm();
 
-    public void run()
-    {
+    public void run() {
 
         start();
         engineBoom();
@@ -24,6 +22,8 @@ abstract class HummerModel
         if (isAlarm)
             alarm();
         stop();
-    };
+    }
+
+    ;
 
 }

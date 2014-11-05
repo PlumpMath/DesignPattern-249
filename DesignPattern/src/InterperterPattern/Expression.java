@@ -1,6 +1,5 @@
 package InterperterPattern;
 
-public abstract class Expression
-{
-        public abstract Object interpreter(Context ctx);
+public abstract class Expression {
+    public abstract Object interpreter(Context ctx);
 }

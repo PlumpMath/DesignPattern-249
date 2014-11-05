@@ -1,10 +1,8 @@
 package CompositePattern;
 
-public class Leaf extends Component
-{
+public class Leaf extends Component {
     @Override
-    public void doSomething()
-    {
+    public void doSomething() {
         System.out.println("leaf");
     }
 }

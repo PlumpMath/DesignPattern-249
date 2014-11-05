@@ -1,11 +1,9 @@
 package StrategyPattern;
 
-public class BlockEnemy implements IStrategy
-{
+public class BlockEnemy implements IStrategy {
 
     @Override
-    public void operation()
-    {
+    public void operation() {
         System.out.println("BlockEnemy");
     }
 

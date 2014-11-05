@@ -1,20 +1,16 @@
 package BridgePattern;
 
-public class RefinedAbstaction extends Abstraction
-{
+public class RefinedAbstaction extends Abstraction {
 
-    public RefinedAbstaction(Implementor imp)
-    {
+    public RefinedAbstaction(Implementor imp) {
         super(imp);
     }
 
     @Override
-    public void request()
-    {
+    public void request() {
         super.request();
         super.getImp().doAnything();
     }
-    
-    
+
 
 }

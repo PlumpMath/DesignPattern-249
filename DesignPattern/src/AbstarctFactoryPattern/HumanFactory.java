@@ -1,7 +1,6 @@
 package AbstarctFactoryPattern;
 
-interface HumanFactory
-{
+interface HumanFactory {
 
     public Human createYellowHuman();
 

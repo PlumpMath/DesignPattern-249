@@ -1,23 +1,19 @@
 package AbstarctFactoryPattern;
 
-class MaleFactory implements HumanFactory
-{
+class MaleFactory implements HumanFactory {
 
     @Override
-    public Human createYellowHuman()
-    {
+    public Human createYellowHuman() {
         return new MaleYellowMan();
     }
 
     @Override
-    public Human createWhiteHuman()
-    {
+    public Human createWhiteHuman() {
         return new MaleWhiteMan();
     }
 
     @Override
-    public Human createBlackHuman()
-    {
+    public Human createBlackHuman() {
         return new MaleBlackMan();
     }
 

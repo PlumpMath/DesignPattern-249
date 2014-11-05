@@ -1,40 +1,33 @@
 package CommandPattern;
 
-class RequirementGroup extends Group
-{
+class RequirementGroup extends Group {
     @Override
-    public void find()
-    {
+    public void find() {
         System.out.println("find" + "Requirement");
     }
 
     @Override
-    public void add()
-    {
+    public void add() {
         System.out.println("add" + "Requirement");
     }
 
     @Override
-    public void delete()
-    {
+    public void delete() {
         System.out.println("delete" + "Requirement");
     }
 
     @Override
-    public void change()
-    {
+    public void change() {
         System.out.println("change" + "Requirement");
     }
 
     @Override
-    public void plan()
-    {
+    public void plan() {
         System.out.println("plan" + "Requirement");
     }
 
     @Override
-    public void rollBack()
-    {
+    public void rollBack() {
         System.out.println("rollBack" + "Requirement");
 
     }

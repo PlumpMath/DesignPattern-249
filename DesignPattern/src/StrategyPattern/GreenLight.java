@@ -1,11 +1,9 @@
 package StrategyPattern;
 
-public class GreenLight implements IStrategy
-{
+public class GreenLight implements IStrategy {
 
     @Override
-    public void operation()
-    {
+    public void operation() {
         System.out.println("GreenLight");
     }
 

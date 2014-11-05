@@ -1,16 +1,13 @@
 package ChainOfResponsibilityPattern;
 
-public class Father extends Handler
-{
+public class Father extends Handler {
 
-    public Father()
-    {
+    public Father() {
         super(Handler.FATHER_LEVEL);
     }
 
     @Override
-    void response(IWomen women)
-    {
+    void response(IWomen women) {
         System.out.println("父亲");
         System.out.println("父亲已同意");
     }

@@ -1,16 +1,13 @@
 package StrategyPattern;
 
-public class Context
-{
+public class Context {
     private IStrategy strategy;
 
-    public Context(IStrategy strategy)
-    {
+    public Context(IStrategy strategy) {
         this.strategy = strategy;
     }
 
-    public void operator()
-    {
+    public void operator() {
         this.strategy.operation();
     }
 }

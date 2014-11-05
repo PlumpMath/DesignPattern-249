@@ -1,11 +1,9 @@
 package StrategyPattern;
 
-public class BackDoor implements IStrategy
-{
+public class BackDoor implements IStrategy {
 
     @Override
-    public void operation()
-    {
+    public void operation() {
         System.out.println("BackDoor");
     }
 

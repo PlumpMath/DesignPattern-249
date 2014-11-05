@@ -1,11 +1,9 @@
 package StatePattern;
 
-public class ConcreateState1 extends State
-{
+public class ConcreateState1 extends State {
 
     @Override
-    public void handler()
-    {
+    public void handler() {
         System.out.println("ConcreateState1");
     }
 

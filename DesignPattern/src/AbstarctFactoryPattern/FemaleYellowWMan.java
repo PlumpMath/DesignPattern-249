@@ -1,11 +1,9 @@
 package AbstarctFactoryPattern;
 
-class FemaleYellowWMan extends YellowMan
-{
+class FemaleYellowWMan extends YellowMan {
 
     @Override
-    public void getSex()
-    {
+    public void getSex() {
         System.out.println("黄女");
     }
 

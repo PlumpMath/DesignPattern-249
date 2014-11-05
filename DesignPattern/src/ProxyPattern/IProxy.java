@@ -1,6 +1,5 @@
 package ProxyPattern;
 
-public interface IProxy
-{
+public interface IProxy {
     public void count();
 }

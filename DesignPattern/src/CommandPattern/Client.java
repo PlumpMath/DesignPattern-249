@@ -1,9 +1,7 @@
 package CommandPattern;
 
-class Client
-{
-    public static void main(String[] args)
-    {
+class Client {
+    public static void main(String[] args) {
         Invoker invoker = new Invoker();
         invoker.setCommand(new AddRequireCommand());
         invoker.addAction();

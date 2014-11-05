@@ -1,11 +1,9 @@
 package AbstarctFactoryPattern;
 
-class MaleBlackMan extends BlackMan
-{
+class MaleBlackMan extends BlackMan {
 
     @Override
-    public void getSex()
-    {
+    public void getSex() {
         System.out.println("黑男");
     }
 
