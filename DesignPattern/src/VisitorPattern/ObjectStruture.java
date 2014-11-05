@@ -12,7 +12,7 @@ public class ObjectStruture
             return new ConcreateElement1();
         } else
         {
-            return new ConcreateElement2();
+            return new ConcreateElement2();ikahsdklahsdklahsdklhs
         }
 
     }
