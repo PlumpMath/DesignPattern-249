@@ -12,7 +12,7 @@ public class Visible implements IVisible
     @Override
     public void visit(ConcreateElement2 e)
     {
-        e.adSomething();aaaa
+        e.adSomething();aaa大大大大大大
     }
 
 }
